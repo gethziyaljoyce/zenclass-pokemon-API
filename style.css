@@ -1,0 +1,81 @@
+:root{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background:#292929;
+  }
+
+  h1{
+    text-align:center;
+    color:#e0a2b9;
+}
+
+  img{
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+  .infoPoke{
+    max-height:20rem;
+    max-width:15rem;
+    background-color:#0E0E0E;
+    margin-bottom:20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px #e0a2b9; 
+    padding-top: 10px;
+    }
+
+  .info{
+      padding-left: 40px;
+      padding-bottom:20px;
+      color:#e0a2b9;
+      font-weight: 50;
+      font-size: small;
+      line-height: 2rem;
+    }
+  
+    .container{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+        margin-left: 15px;
+        width:100%;
+    }
+  
+
+  @media (max-width:1190px){
+    .container{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        margin-left: 10px;
+        width:100%;
+    }
+}
+
+  @media (max-width:1000px){
+    .container{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        margin-left: 10px;
+        width:100%;
+    }
+  }
+ 
+   @media (max-width:750px){
+    .container{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        margin-left: 10px;
+        width:100%;
+    }
+  }
+   
+   @media (max-width:500px){
+    .container{
+        display:grid;
+        grid-template-columns:1fr;
+        margin-left: 10px;
+        width:100%;
+    }
+}
